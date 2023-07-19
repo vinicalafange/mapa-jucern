@@ -7,8 +7,102 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        *{
+            font-family: sans-serif;
+            font-size: 12px;
+            margin: 0;
+        }
+        
+        body{
+            padding: 0 20px 0 20px;
+            width: 650px;
+            min-height: calc(100vh - 20px);
+        }
+
+        .general-container{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        
+        .column-1, .column-2{
+            display: flex;
+            flex-direction: column;
+            width: 310px;
+        }
+        
+        .column-1{
+            margin-right: 20px;
+        }
+        
+        .info-box{
+            border: 1px;
+            border-style: solid;
+            border-color: #dddddd;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .info-title{
+            background: -webkit-gradient(linear, left top, left bottom,
+             from(#eeeeee), to(#dddddd));
+        }
+        
+        .info-items{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .title-text{
+            color: #333333;
+            font-weight: bold;
+            text-shadow: 0 0 0 transparent, #fff 0px 1px 0px;
+            padding: 8px;
+        }
+        
+        .elements{
+            text-decoration: none;
+            color: #005BAA;
+            font-weight: bold;
+            padding: 6px;
+            border: 1px;
+            border-style: solid;
+            border-color: #ccc;
+        }
+        
+        .elements:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        
+        h1{
+            color: #005BAA;
+            font-size: 24px;
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+        
+        h2{
+            color: #005BAA;
+            font-size: 20px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 30px;
+        }
+        
+        .site-data{
+            margin-bottom: 20px;
+        }
+        
+        .description{
+            margin-top: 20px;
+            margin-bottom: 40px;
+            line-height: 22px;
+        }
+        
+    </style>
+
 </head>
 <body>
     <h1>Mapa do site</h1>
